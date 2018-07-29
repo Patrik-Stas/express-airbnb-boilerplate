@@ -1,4 +1,18 @@
 # Another JS Boilerplate
+- Pretty standard boilerplate - Node, Express, Mongo, Jest for testing with all the code under AirBnb linter.
+- In addition to that, I provide some guidance how to deploy your Node application to linux server as
+1. Docker container
+2. Dokku application
+- I am also providing guidance on secret storage - password, API tokens etc. using `git-secret`
+
+##### Don't care about Docker, Dokku, git-secret?
+- If so, just run
+```bash
+rm Dockerfile docker-compose.yml dokku-setup.sh
+rmdir secrets
+```
+
+
 ## Node / Express / Mongoose / Jest / AirBnB ESlint / Dokku / Docker
 
 - The server will run endoint `GET /users`, returns some data from preconfigured mlab MongoDB instance.
