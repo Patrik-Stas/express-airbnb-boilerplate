@@ -1,0 +1,5 @@
+version: "3"
+services:
+  wallet-scanner:
+    build: .
+    image: pstas/node-boilerplate:latest

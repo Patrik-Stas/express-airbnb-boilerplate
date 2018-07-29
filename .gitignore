@@ -1,9 +1,13 @@
 .idea
 
 node_modules
+secrets/*
+!secrets/*.secret
+
 
 dev.js
 test-config.js
 
 logs
 *.log
+.gitsecret/keys/random_seed
